@@ -1,3 +1,29 @@
+@font-face {
+    font-family: apercu-300;
+    src: url(./../fonts/apercu/Apercu\ Light.otf)
+}
+@font-face {
+    font-family: apercu-400;
+    src: url(./../fonts/apercu/Apercu\ Regular.otf);
+}
+
+@font-face {
+    font-family: apercu-500;
+    src: url(./../fonts/apercu/Apercu\ Medium.otf);
+}
+
+@font-face {
+    font-family: apercu-700;
+    src: url(./../fonts/apercu/Apercu\ Pro\ Bold.otf);
+}
+
+
+@font-face {
+    font-family: futurak;
+    src: url(./../fonts/futurak/futurak.ttf);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +33,26 @@ html {
     font-size: 62.5%;
 }
 
+:root {
+    --black: #000;
+    --white: #ffffff;
+    --red: #E62E2D;
+    --sub-heading-red:#ED1C24;
+    --green: #28a745;
+    --heading-futurak: futurak;
+    --heading-and-para-light: apercu-300;
+    --heading-and-para-regular: apercu-400;
+    --heading-and-para-medium: apercu-500;
+    --heading-and-para-bold: apercu-700;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
 /* PADDING CLASSES */
 
 /* FOUR SIDE EQUAL PADDING */
@@ -132,6 +178,40 @@ html {
     justify-content:space-evenly;
 }
 
+/* GAP CLASSES */
+
+.gap-1 {
+    gap: 10px;
+}
+.gap-2 {
+    gap: 20px;
+}
+.gap-3 {
+    gap: 30px;
+}
+.gap-4 {
+    gap: 40px;
+}
+.gap-5 {
+    gap: 50px;
+}
+.gap-6 {
+    gap: 70px;
+}
+.gap-7 {
+    gap: 70px;
+}
+.gap-8 {
+    gap: 80px;
+}
+.gap-9 {
+    gap: 90px;
+}
+.gap-10 {
+    gap: 100px;
+}
+
+
 /* ALIGN-CLASSES */
 .item-center {
     align-items: center;
@@ -157,8 +237,26 @@ html {
     text-align: right;
 }
 
+/* BORDER CLASSES */ 
 
+.border-1 {
+    border: 1px solid;
+}
 
+.border-2 {
+    border: 2px solid;
+}
 
+.border-3 {
+    border: 3px solid;
+}
+
+.border-4 {
+    border: 4px solid;
+}
+
+.border-5 {
+    border: 5px solid;
+}
 
 

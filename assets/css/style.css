@@ -1,0 +1,92 @@
+@font-face {
+    font-family: apercu-300;
+    src: url(./../fonts/apercu/Apercu\ Light.otf)
+}
+@font-face {
+    font-family: apercu-400;
+    src: url(./../fonts/apercu/Apercu\ Regular.otf);
+}
+
+@font-face {
+    font-family: apercu-500;
+    src: url(./../fonts/apercu/Apercu\ Medium.otf);
+}
+
+@font-face {
+    font-family: apercu-700;
+    src: url(./../fonts/apercu/Apercu\ Pro\ Bold.otf);
+}
+
+
+@font-face {
+    font-family: futurak;
+    src: url(./../fonts/futurak/futurak.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --black: #000;
+    --white: #ffffff;
+    --red: #E62E2D;
+    --sub-heading-red:#ED1C24;
+    --green: #28a745;
+    --heading-futurak: futurak;
+    --heading-and-para-light: apercu-300;
+    --heading-and-para-regular: apercu-400;
+    --heading-and-para-medium: apercu-500;
+    --heading-and-para-bold: apercu-700;
+}
+
+body {
+    background-color: var(--black);
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.navbar .logo {
+    width: 15%;
+}
+ .navbar li a{
+    color: var(--white);
+    font-family: var(--heading-and-para-regular );
+    font-size: 1.4rem;
+ }
+
+ .two-buttons .get-a-franchise {
+    font-size: 1.4rem;
+    padding: 16px 18.5px;
+    font-family: var(--heading-and-para-regular);
+    color: var(--white);
+    background-color: transparent;
+    border-color:  var(--white);
+    border-radius: 30px;
+}
+.two-buttons .order-online {
+    font-size: 1.4rem;
+    padding: 12px 16.5px;
+    font-family: var(--heading-and-para-regular);
+    color: var(--white);
+    background-color: var(--red);
+    border-color:  var(--red);
+    border-radius: 30px;
+}
+.two-buttons .order-online i {
+    color: var(--red);
+    background-color: var(--white);
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 5px;
+}
