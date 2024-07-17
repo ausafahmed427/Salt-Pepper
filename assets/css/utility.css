@@ -150,6 +150,73 @@ img {
 .pb-10 {
     padding-bottom: 100px;
 }
+
+/* LETF PADDING */
+.pl-1 {
+    padding-left: 10px;
+}
+.pl-2 {
+    padding-left: 20px;
+}
+.pl-3 {
+    padding-left: 30px;
+}
+.pl-4 {
+    padding-left: 40px;
+}
+.pl-5 {
+    padding-left: 50px;
+}
+.pl-6 {
+    padding-left: 60px;
+}
+.pl-7 {
+    padding-left: 70px;
+}
+.pl-8 {
+    padding-left: 80px;
+}
+.pl-9 {
+    padding-left: 90px;
+}
+.pl-10 {
+    padding-left: 100px;
+}
+
+/* RIGHT PADDING */
+.pr-1 {
+    padding-right: 10px;
+}
+.pr-2 {
+    padding-right: 20px;
+}
+.pr-3 {
+    padding-right: 30px;
+}
+.pr-4 {
+    padding-right: 40px;
+}
+.pr-5 {
+    padding-right: 50px;
+}
+.pr-6 {
+    padding-right: 60px;
+}
+.pr-7 {
+    padding-right: 70px;
+}
+.pr-8 {
+    padding-right: 80px;
+}
+.pr-9 {
+    padding-right: 90px;
+}
+.pr-10 {
+    padding-right: 100px;
+}
+
+
+
 /* FLEX CLASSES */
 .d-flex {
     display: flex;
@@ -157,6 +224,9 @@ img {
 /* FLEX WRAP */
 .flex-wrap {
     flex-wrap: wrap;
+}
+.flex-direction {
+    flex-direction: column;
 }
 /* JUSTIFY CLASSES */
 .justify-center {
