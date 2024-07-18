@@ -53,7 +53,14 @@ a {
 img {
     width: 100%;
 }
+
+.auto {
+    margin: auto;
+}
 /* PADDING CLASSES */
+
+/* ROTATE CLASSES */
+
 
 /* FOUR SIDE EQUAL PADDING */
 .p-1 {

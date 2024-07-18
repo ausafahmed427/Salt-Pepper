@@ -2,6 +2,7 @@
     font-family: apercu-300;
     src: url(./../fonts/apercu/Apercu\ Light.otf)
 }
+
 @font-face {
     font-family: apercu-400;
     src: url(./../fonts/apercu/Apercu\ Regular.otf);
@@ -28,6 +29,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html {
     font-size: 62.5%;
 }
@@ -36,7 +38,7 @@ html {
     --black: #000;
     --white: #ffffff;
     --red: #E62E2D;
-    --sub-heading-red:#ED1C24;
+    --sub-heading-red: #ED1C24;
     --green: #28a745;
     --heading-futurak: futurak;
     --heading-and-para-light: apercu-300;
@@ -57,60 +59,67 @@ body {
     max-width: 1140px;
     margin: auto;
 }
+
 /* NAVBAR  CSS START */
 .navbar .logo {
     width: 15%;
 }
- .navbar li a{
-    color: var(--white);
-    font-family: var(--heading-and-para-regular );
-    font-size: 1.4rem;
- }
 
- .two-buttons .get-a-franchise {
+.navbar li a {
+    color: var(--white);
+    font-family: var(--heading-and-para-regular);
+    font-size: 1.4rem;
+}
+
+.two-buttons .get-a-franchise {
     font-size: 1.4rem;
     padding: 16px 18.5px;
     font-family: var(--heading-and-para-regular);
     color: var(--white);
     background-color: transparent;
-    border-color:  var(--white);
+    border-color: var(--white);
     border-radius: 30px;
 }
+
 .two-buttons .order-online {
     font-size: 1.4rem;
     padding: 12px 16.5px;
     font-family: var(--heading-and-para-regular);
     color: var(--white);
     background-color: var(--red);
-    border-color:  var(--red);
+    border-color: var(--red);
     border-radius: 30px;
 }
+
 .two-buttons .order-online i {
     color: var(--red);
     background-color: var(--white);
     border-radius: 30px;
-    font-size: 14px;
+    font-size: 18px;
     padding: 5px;
 }
+
 /* NAVBAR  CSS END */
 
 /* BANNER CSS START */
 .home-banner .strech-banner img {
     height: 700px;
 }
+
 /* BANNER CSS END */
 
 /* ABOUT SECTION CSS START */
-.about-section h1{
-   font-family: var(--heading-and-para-light);
-   color: var(--white);
-   font-size: 4rem;
-   font-weight: 400;
-   width: 60%;
-   margin: auto;
-   line-height: 50px;
+.about-section h1 {
+    font-family: var(--heading-and-para-light);
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: 400;
+    width: 60%;
+    margin: auto;
+    line-height: 50px;
 }
-.about-section h1 span{
+
+.about-section h1 span {
     font-size: 5.2rem;
     font-family: var(--heading-futurak);
 }
@@ -121,10 +130,12 @@ body {
     font-family: var(--heading-and-para-light);
     padding-top: 10px;
 }
+
 .cards {
     width: 80%;
     margin: auto;
 }
+
 .cards .card img {
     background-color: var(--white);
 }
@@ -138,11 +149,15 @@ body {
     border-color: var(--white);
     padding: 15px 50px;
 }
+
 /* ABOUT SECTION CSS END */
 
 /* RESTURANT FRANCHISE CSS STARTED */
 .resturant-franchise {
     background-color: var(--background-dark-grey);
+    background-image: url(./../images/s-position.webp);
+    background-repeat: no-repeat;
+    background-position: 1220px 60px;
 }
 
 .resturant-franchise h1 {
@@ -155,7 +170,7 @@ body {
     margin: auto;
 }
 
-.resturant-franchise h1 span{
+.resturant-franchise h1 span {
     font-size: 5.2rem;
     font-family: var(--heading-futurak);
 }
@@ -167,4 +182,134 @@ body {
     color: var(--para-grey);
 }
 
+.resturant-info h1 {
+    width: 100%;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.resturant-info h1 span {
+    font-size: 32px;
+}
+
+.resturant-info h2 {
+    color: var(--sub-heading-red);
+    text-transform: uppercase;
+    font-family: var(--heading-and-para-regular);
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+}
+
+.icon-info .icon i {
+    font-size: 18px;
+    color: var(--para-grey);
+}
+
+.resturant-info .button a {
+
+    color: var(--white);
+    font-family: var(--heading-and-para-light);
+    font-size: 1.4rem;
+    border-radius: 30px;
+    border-color: var(--white);
+    padding: 15px 25px;
+    width: fit-content;
+}
+
+.resturant-info .button i {
+    color: var(--red);
+    background-color: var(--white);
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.left .resturant-info {
+    width: 48%;
+}
+
+
+
 /* RESTURANT FRANCHISE CSS ENDED */
+
+/* EXPRESS FRANCHISE CSS STARTED */
+
+.express-franchise {
+    background-image: url(./../images/p-position.webp);
+    background-repeat: no-repeat;
+    background-position: 30px 30px;
+}
+
+.express-franchise h1 {
+font-family: var(--heading-and-para-light);
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: 400;
+    width: 40%;
+    margin: auto;
+    line-height: 50px;
+
+}
+
+.express-franchise h1 span {
+    font-size: 5.2rem;
+    font-family: var(--heading-futurak);
+}
+
+.franchise {
+    width: 33.33%;
+}
+
+.franchise h2 {
+    color: var(--sub-heading-red);
+    text-transform: uppercase;
+    font-family: var(--heading-and-para-regular);
+    font-weight: 400;
+    letter-spacing: 0.48em;
+    font-size: 12px;
+    
+}
+
+.franchise h1 {
+    font-size: 24px;
+    width: 100%;
+    margin: 0;
+}
+
+.franchise h1 span{
+    font-size: 24px;
+    width: 100%;
+}
+
+.franchise p {
+    font-family: var(--heading-and-para-regular);
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: var(--para-grey);
+}
+
+.franchise a {
+    color: var(--white);
+    font-family: var(--heading-and-para-light);
+    font-size: 1.4rem;
+    border-radius: 30px;
+    border-color: var(--white);
+    padding: 15px 25px;
+    width: fit-content;
+}
+
+.franchise .button i {
+    color: var(--red);
+    background-color: var(--white);
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 5px;
+    transform: rotate(-30deg);
+}
+.franchise img {
+    height: 300px;
+    border-radius: 5px;
+}
+/* EXPRESS FRANCHISE CSS ENDED */
