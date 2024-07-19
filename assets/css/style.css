@@ -95,7 +95,7 @@ body {
     color: var(--red);
     background-color: var(--white);
     border-radius: 30px;
-    font-size: 18px;
+    font-size: 1.8rem;
     padding: 5px;
 }
 
@@ -185,12 +185,12 @@ body {
 .resturant-info h1 {
     width: 100%;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 3.2rem;
     line-height: 38px;
 }
 
 .resturant-info h1 span {
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 .resturant-info h2 {
@@ -203,7 +203,7 @@ body {
 }
 
 .icon-info .icon i {
-    font-size: 18px;
+    font-size: 1.8rem;
     color: var(--para-grey);
 }
 
@@ -222,7 +222,7 @@ body {
     color: var(--red);
     background-color: var(--white);
     border-radius: 30px;
-    font-size: 18px;
+    font-size: 1.8rem;
     padding: 5px;
 }
 
@@ -268,18 +268,18 @@ font-family: var(--heading-and-para-light);
     font-family: var(--heading-and-para-regular);
     font-weight: 400;
     letter-spacing: 0.48em;
-    font-size: 12px;
+    font-size: 1.2rem;
     
 }
 
 .franchise h1 {
-    font-size: 24px;
+    font-size: 2.4rem;
     width: 100%;
     margin: 0;
 }
 
 .franchise h1 span{
-    font-size: 24px;
+    font-size: 2.4rem;
     width: 100%;
 }
 
@@ -304,7 +304,7 @@ font-family: var(--heading-and-para-light);
     color: var(--red);
     background-color: var(--white);
     border-radius: 30px;
-    font-size: 18px;
+    font-size: 1.8rem;
     padding: 5px;
     transform: rotate(-30deg);
 }
@@ -312,4 +312,67 @@ font-family: var(--heading-and-para-light);
     height: 300px;
     border-radius: 5px;
 }
+.resturant-info-img .resturant-images {
+    width: 50%;
+}
 /* EXPRESS FRANCHISE CSS ENDED */
+
+/* LOCATION SECTION CSS STARTED */
+
+.location h1 {
+    font-size: 4.8rem;
+    width: 100%;
+    margin: 0;
+    color: var(--white);
+    font-family: var(--heading-and-para-regular);
+    font-weight: 400;
+
+}
+
+.location h1 span{
+    font-size: 5.2rem;
+    width: 100%;
+    font-family: var(--heading-futurak);
+}
+
+.location-card h5{
+    font-family: var(--heading-and-para-regular);
+    font-size: 1rem;
+    color: var(--sub-heading-red);
+    line-height: 12px;
+    letter-spacing: 0.48em;
+}
+
+.location-card h3 {
+    font-size: 2.1rem;
+    color: var(--black);
+    font-family: var(--heading-and-para-regular);
+    font-weight: 400;
+    line-height: 30px;
+}
+.location-card h3 span{
+    font-size: 2.4rem;
+    color: var(--black);
+    font-family: var(--heading-futurak);
+}
+
+.location h4 {
+    font-family: var(--heading-and-para-regular);
+    font-weight: 400;
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+.location-card {
+    background: white;
+    border-radius: 5px;
+}
+
+.location-card {
+    width: 33.33%;
+}
+
+.location-card img {
+    max-width: 100px;
+}
+/* LOCATION SECTION CSS ENDED */
