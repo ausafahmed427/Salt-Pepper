@@ -376,3 +376,86 @@ font-family: var(--heading-and-para-light);
     max-width: 100px;
 }
 /* LOCATION SECTION CSS ENDED */
+
+/* SOCIAL FEED CSS STARTED */
+.social-feed-heading {
+    color: var(--white);
+    font-family: var(--heading-and-para-regular);
+    font-weight: 400;
+    font-size: 4.8rem;
+}
+
+.social-feed .images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-feed .images img {
+    width: 300px;
+}
+/* SOCIAL FEED CSS ENDED */
+
+/* FOOTER SECTION CSS STARTED */
+
+.footer {
+    background-color: var(--background-dark-grey);
+    background-image: url(./../images/s-position.webp);
+    background-repeat: no-repeat;
+    background-position: 30px 30px;
+}
+
+.img-para {
+    width: 33%;
+}
+.site-links {
+    width: 16.5%;
+}
+
+
+.contact-us {
+    width: 25%;
+}
+
+.site-links {
+    width: 16.5%;
+}
+
+.img-para img {
+    width: 200px;
+}
+
+.img-para p {
+    font-family: var(--heading-and-para-regular);
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: var(--para-grey);
+}
+
+.link {
+    text-decoration: none;
+    font-family: var(--heading-and-para-regular);
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: var(--para-grey);
+}
+.contact-us p {
+    font-family: var(--heading-and-para-regular);
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: var(--para-grey);
+}
+
+.site-links .menu-list li a {
+    font-family: var(--heading-and-para-regular);
+    font-weight: 300;
+    font-size: 1.6rem;
+    color: var(--para-grey);
+}
+
+.footer .f-heading {
+    font-size: 1.8rem;
+    color: var(--white);
+    font-family: var(--heading-and-para-regular);
+    font-weight: 300;
+}
+/* FOOTER SECTION CSS ENDED */
