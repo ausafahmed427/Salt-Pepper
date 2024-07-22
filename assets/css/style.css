@@ -60,6 +60,10 @@ body {
     margin: auto;
 }
 
+li {
+    list-style: none;
+}
+
 /* NAVBAR  CSS START */
 .navbar .logo {
     width: 15%;
@@ -457,5 +461,19 @@ font-family: var(--heading-and-para-light);
     color: var(--white);
     font-family: var(--heading-and-para-regular);
     font-weight: 300;
+}
+.social-medias .social-icon {
+    color: #fff;
+    font-size: 20px;
+    background: red;
+    padding: 12px;
+    border-radius: 50%;
+}
+.social-medias .fa-facebook-f {
+    padding: 12px 16px;
+}   
+
+.follow-us .clients {
+    width: 160px;
 }
 /* FOOTER SECTION CSS ENDED */
