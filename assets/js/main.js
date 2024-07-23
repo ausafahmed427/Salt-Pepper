@@ -82,6 +82,8 @@ class DynamicNavbar extends HTMLElement {
                 </div>
             </div>
         </div>
+
+        
       `;
     }
   }
