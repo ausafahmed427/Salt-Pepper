@@ -159,7 +159,7 @@ li {
 /* RESTURANT FRANCHISE CSS STARTED */
 .resturant-franchise {
     background-color: var(--background-dark-grey);
-    background-image: url(./../images/s-position.webp);
+    background-image: url(./../images/home-img/s-position.webp);
     background-repeat: no-repeat;
     background-position: 1220px 60px;
 }
@@ -241,7 +241,7 @@ li {
 /* EXPRESS FRANCHISE CSS STARTED */
 
 .express-franchise {
-    background-image: url(./../images/p-position.webp);
+    background-image: url(./../images/home-img/p-position.webp);
     background-repeat: no-repeat;
     background-position: 30px 30px;
 }
@@ -403,7 +403,7 @@ font-family: var(--heading-and-para-light);
 
 .footer {
     background-color: var(--background-dark-grey);
-    background-image: url(./../images/s-position.webp);
+    background-image: url(./../images/home-img/s-position.webp);
     background-repeat: no-repeat;
     background-position: 30px 30px;
 }

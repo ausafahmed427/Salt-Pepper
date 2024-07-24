@@ -4,14 +4,14 @@ class DynamicNavbar extends HTMLElement {
       <div class="navbar p-1">
             <nav class="container d-flex item-center justify-space-between">
                 <div class="logo">
-                    <a href="#"><img src="./assets/images/logo.webp" alt=""></a>
+                    <a href="#"><img src="./assets/images/home-img/logo.webp" alt=""></a>
                 </div>
                 <div class="menu-and-buttons d-flex item-center gap-2">
                     <div class="menu">
                         <ul class="menu-list d-flex gap-4">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Publications</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="publications.html">Publications</a></li>
                             <li><a href="#">Feedback</a></li>
                         </ul>
                     </div>
@@ -37,7 +37,7 @@ class DynamicNavbar extends HTMLElement {
             <div class="container">
                 <div class="footer-infO d-flex gap-5">
                     <div class="img-para d-flex flex-direction gap-3">
-                        <img src="./assets/images/logo.webp" alt="">
+                        <img src="./assets/images/home-img/logo.webp" alt="">
                         <p>The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service,
                             extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning
                             destinations in Lahore. From family occasions to business dinner and moments of the heart, this
@@ -51,9 +51,9 @@ class DynamicNavbar extends HTMLElement {
                     <div class="site-links d-flex flex-direction gap-4">
                         <h2 class="f-heading">Site Links</h2>
                         <ul class="menu-list d-flex flex-direction gap-2">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Publications</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="publications.html">Publications</a></li>
                             <li><a href="#">Feedback</a></li>
                         </ul>
                     </div>
@@ -75,8 +75,8 @@ class DynamicNavbar extends HTMLElement {
                             <i class="fa-brands fa-twitter social-icon"></i>
                         </div>
                         <div class="clients d-flex flex-direction gap-1">
-                            <img src="./assets/images/app-store.webp" alt="">
-                            <img src="./assets/images/google.webp" alt="">
+                            <img src="./assets/images/home-img/app-store.webp" alt="">
+                            <img src="./assets/images/home-img/google.webp" alt="">
                         </div>
                     </div>
                 </div>

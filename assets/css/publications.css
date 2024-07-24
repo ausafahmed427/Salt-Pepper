@@ -63,6 +63,7 @@ body {
 li {
     list-style: none;
 }
+
 /* NAVBAR  CSS START */
 .navbar .logo {
     width: 15%;
@@ -104,123 +105,6 @@ li {
 
 /* NAVBAR  CSS END */
 
-/* HERO SECTION CSS STARTED */
-.hero-section h1{
-    font-size: 4.8rem;
-    font-family: var(--heading-and-para-regular);
-    font-weight: 400;
-    color: var(--white);
-} 
-
-.hero-section p {
-    font-size: 1.6rem;
-    color: var(--para-grey);
-    font-family: var(--heading-and-para-regular);
-    font-weight: 400;
-}
-/* HERO SECTION CSS ENDED */
-
-/* ABOUT SECTION CSS STARTED */
-.about-section h1{
-    font-size: 4rem;
-    font-family: var(--heading-and-para-regular);
-    font-weight: 400;
-    color: var(--white);
-} 
-
-.about-section p {
-    font-size: 1.6rem;
-    color: var(--para-grey);
-    font-family: var(--heading-and-para-regular);
-    font-weight: 400;
-}
-.resturant-img {
-    width: 50%;
-}
-
-.resturant-img img {
-    border-radius: 5px;
-}
-
-.resturant-info {
-    width: 50%;
-}
-.resturant-info h2 {
-    font-size: 3.2rem;
-    color: var(--white);
-    font-family: var(--heading-and-para-regular);
-    font-weight: 400;
-}
-
-.resturant-info h2 span {
-font-family: var(--heading-futurak);
-
-}
-
-.about-section h2 {
-    font-size: 3.2rem;
-    color: var(--white);
-    font-family: var(--heading-and-para-regular);
-    font-weight: 400;
-}
-.about-section h2 span {
-    font-family: var(--heading-futurak);
-    
-    }
-/* ABOUT SECTION CSS ENDED */
-
-/* LOCATION CSS STARTED  */
-.location-card {
-    padding: 12px;
-    background-color: var(--background-dark-grey);
-    border-radius: 10px;
-}
-
-.location-card img {
-    border-radius: 5px;
-}
-
-.location-card h3 {
-    color: var(--white);
-    font-family: var(--heading-and-para-regular);
-    font-weight: 400;
-    font-size: 1.6rem;
-    padding-top: 10px;
-}
-
-.location-card h5 {
-    color: var(--para-grey);
-    font-family: var(--heading-and-para-regular);
-    font-weight: 400;
-    font-size: 1.4rem;
-}
-
-.resturant-info.about h1{
-    font-size: 3.2rem;
-}
-.resturant-info.about h1 span { 
-    font-family: var(--heading-futurak);
-}
-
-
-.resturant-info.about h2 {
-    color: var(--white);
-    font-size: 1.2rem;
-    font-family: var(--heading-and-para-regular);
-    font-weight: 400;
-}
-
-.resturant-images {
-    width: 50%;
-}
-
-.resturant-images img {
-    border-radius: 10px;
-}
-/* LOCATION CSS ENDED  */
-
-
-
 
 
 
@@ -240,7 +124,7 @@ font-family: var(--heading-futurak);
 
 .footer {
     background-color: var(--background-dark-grey);
-    background-image: url(./../images/about-img/s-position.webp);
+    background-image: url(./../images/home-img/s-position.webp);
     background-repeat: no-repeat;
     background-position: 30px 30px;
 }
