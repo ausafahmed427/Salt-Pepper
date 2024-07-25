@@ -12,7 +12,7 @@ class DynamicNavbar extends HTMLElement {
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about.html">About Us</a></li>
                             <li><a href="publications.html">Publications</a></li>
-                            <li><a href="#">Feedback</a></li>
+                            <li><a href="feedback.html">Feedback</a></li>
                         </ul>
                     </div>
                     <div class="two-buttons d-flex item-center gap-2">
@@ -54,7 +54,7 @@ class DynamicNavbar extends HTMLElement {
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about.html">About Us</a></li>
                             <li><a href="publications.html">Publications</a></li>
-                            <li><a href="#">Feedback</a></li>
+                            <li><a href="feedback.html">Feedback</a></li>
                         </ul>
                     </div>
                     <div class="contact-us d-flex flex-direction gap-4">

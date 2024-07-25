@@ -104,38 +104,40 @@ li {
 }
 
 /* NAVBAR  CSS END */
-/* BOOK SECTION CSS STARTED */
-.books .book-one{
-    border-color: #ffffff52;
+
+/* FEEDBACK BANNER CSS STARTED */
+.banner-bg {
+    background: url(./../images/feedback-img/feedback-banner.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
 }
-.books .book-two{
-    border-color: #ffffff52;
-}
-.two-books h1 {
-    font-size: 4.8rem;
-    font-family: var(--heading-and-para-regular);
-    font-weight: 400;
+
+.banner-bg h2 {
+    padding-top: 200px;
     color: var(--white);
-}
-.adresses .address-one .name {
-    font-size: 1.6rem;
     font-family: var(--heading-and-para-regular);
+    font-size: 3.2rem;
     font-weight: 400;
+}
+
+.banner-bg h1 {
     color: var(--white);
-}
-.adresses .address-one .address {
-    font-size: 1.4rem;
     font-family: var(--heading-and-para-regular);
-    font-weight: 400;
-    color: var(--para-grey);
+    font-size: 9rem;
+    font-weight: 700;
 }
-.adresses .address-one .phone {
-    font-size: 1.4rem;
+
+.banner-bg h3 {
+    color: var(--white);
     font-family: var(--heading-and-para-regular);
+    font-size: 2rem;
     font-weight: 400;
-    color: var(--para-grey);
 }
-/* BOOK SECTION CSS ENDED */
+/* FEEDBACK BANNER CSS ENDED */
+
+
 
 
 
