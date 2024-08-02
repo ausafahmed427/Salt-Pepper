@@ -111,11 +111,11 @@ li {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 650px;
+    height: 750px;
 }
 
 .banner-bg h2 {
-    padding-top: 200px;
+    padding-top: 170px;
     color: var(--white);
     font-family: var(--heading-and-para-regular);
     font-size: 3.2rem;
@@ -136,6 +136,125 @@ li {
     font-weight: 400;
 }
 /* FEEDBACK BANNER CSS ENDED */
+
+/* CONTACTUS SECTION CSS STARTED */
+
+.contact-us-sec p {
+    color: var(--white);
+    font-size: 2rem;
+    font-family: var(--heading-and-para-regular);
+    font-weight: 400;
+    line-height: 26.2px;
+}
+.formsec {
+    width: 50%;
+}
+.formsec .border-right{
+    border: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: var(--white);
+    border-style: dashed;
+    padding-right: 50px;
+}
+.mapsec {
+    width: 50%;
+}
+.mapsec h3{
+    color: var(--white);
+    font-size: 3rem;
+    font-family: var(--heading-and-para-regular);
+    font-weight: 600;
+}
+input{
+    width: 100%;
+    padding: 16px;
+    border-radius: 5px;
+    border: none;
+}
+input:focus {
+    border: none;
+    outline: none;
+}
+textarea:focus {
+    border: none;
+    outline: none;
+}
+textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+}
+.contact-us-form {
+    padding: 0px 50px 0px 0px;
+}
+.branch select {
+    width: 100%;
+    padding: 16px;
+    border-radius: 5px;
+}
+.branch select:focus {
+    border: none;
+    outline: none;
+}
+.name {
+    width: 100%;
+}
+.phone {
+    width: 100%;
+}
+.info-star h3 {
+    font-size: 2.4rem;
+    color: var(--white);
+    font-family: var(--heading-and-para-regular);
+    font-weight: 300;
+}
+.info-stars {
+    justify-content: space-between;
+    padding: 0px 50px 0px 0px;
+    
+}
+.info-stars.first{
+    margin-top: 30px;
+}
+.info-star i {
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: 8px;
+    border: 1px solid var(--white);
+    border-radius: 30px;
+    margin-left: 3px;
+}
+.items .item p{
+    font-size: 1.2rem;
+}
+.items .item span {
+    font-size: 1.4rem;
+    color: var(--white);
+    font-family: var(--heading-and-para-regular);
+    font-weight: 300;
+}
+
+.submit input[type="submit"] {
+font-size: 1.4rem;
+padding: 12px 16.5px;
+font-family: var(--heading-and-para-regular);
+color: var(--white);
+background-color: var(--red);
+border-color: var(--red);
+border-radius: 30px;
+width: 30%;
+cursor: pointer;
+}
+.icon-info .icon i{
+    color: var(--white);
+    font-size: 1.6rem;
+}
+.icon-info .info p{
+    color: var(--white);
+    font-size: 1.4rem;
+}
+/* CONTACTUS SECTION CSS ENDED */
 
 
 
